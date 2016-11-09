@@ -6,3 +6,19 @@ git config --list	//shows all the config settings uptil now
 
 git init : 		//initializes empty the git repository
 git add <none | filename.txt>: This puts the file into the staging area but not committed
+
+git status: shows whr we are and whr next things are kept
+git commit -m "<file_name> is committed":
+
+
+git commit -am	// and nd commit together but wont work on new file
+
+u need to upload a new file directly first.
+
+git log	// shows the logs
+git log --oneline	// shows the logs in 1 line. beneficial in apps having longer data
+git log --obeline -2	// shows the 2 most recent changed files
+$ git log --oneline --since="9-11-2016"
+$ git log --oneline --until="9-11-2016"
+git log --author="ankit"	//checks the commits made by the author
+git log --grep="upd"
