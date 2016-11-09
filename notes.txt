@@ -1,0 +1,8 @@
+git config --global user.name "ankit joshi"	//One time config
+git config --global user.email "ankit_joshi"	//One time config
+
+git config user.name 	// to check if the name has been stored
+git config --list	//shows all the config settings uptil now
+
+git init : 		//initializes empty the git repository
+git add <none | filename.txt>: This puts the file into the staging area but not committed
