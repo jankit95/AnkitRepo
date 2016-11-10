@@ -7,3 +7,5 @@ THis is change 5 in master
 
 
 capitalized and space added in branch bug123
+
+this is the new commit in bug123
