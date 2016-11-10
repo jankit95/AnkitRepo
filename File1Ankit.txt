@@ -6,3 +6,5 @@ this is more edited
 
 
 capitalized and space added in branch bug123
+
+this is the new commit in bug123
