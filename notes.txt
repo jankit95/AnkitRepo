@@ -21,4 +21,13 @@ git log --obeline -2	// shows the 2 most recent changed files
 $ git log --oneline --since="9-11-2016"
 $ git log --oneline --until="9-11-2016"
 git log --author="ankit"	//checks the commits made by the author
-git log --grep="upd"
+git log --grep="upd"		//searches through "upd"
+
+
+git checkout <branch | Shak (id of snapshot)>	//Restores the snapshot
+git checkout -b <branch>
+
+How to undo the commit??
+git revert - **Not recommended**
+git reset - It removes everything..
+
